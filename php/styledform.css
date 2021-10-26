@@ -1,0 +1,30 @@
+form {
+  font-size: 20px;
+  display: table;
+  padding: 10px;
+  border: thin dotted #7e7e7e;
+  margin: 500px auto; /*实现页面居中显示效果*/
+}
+
+form textarea {
+  width: 300px;
+  height: 200px;
+}
+div.tableRow {
+  display: table-row;
+}
+div.tableRow p {
+  display: table-cell;
+  vertical-align: top;
+  padding: 3px;
+}
+div.tableRow p:first-child {
+  text-align: right;
+  width: 100px;
+}
+div.tableRow p.heading {
+  font-weight: bold;
+  font-size: +2;
+  text-align: center;
+  padding: 20px;
+}
